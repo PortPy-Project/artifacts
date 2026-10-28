@@ -37,7 +37,7 @@ curl -LO https://github.com/PortPy-Project/artifacts/releases/latest/download/me
 ```
 
 `download_artifact` follows the **latest** release by default, so a new release reaches you
-without updating PortPy. Pass `tag="v1.0"` to pin a vintage. A published tag never changes;
+without updating PortPy. Pass `tag="v1.0.0"` to pin a vintage. A published tag never changes;
 when a future release *modifies* an existing artifact rather than adding one, it will be given
 a new file name, so a cached copy can never be silently wrong.
 
