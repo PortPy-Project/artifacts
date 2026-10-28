@@ -1,0 +1,13 @@
+# The artifacts themselves are published as GitHub release assets, never committed.
+#
+# Git history is permanent: a committed checkpoint is carried by every clone forever and
+# cannot be removed without rewriting history. Release assets are free, do not count toward
+# repository size, and can be replaced. This ignore list is a safety net so that copying
+# artifacts into this folder and running "git add ." cannot undo that decision.
+*.pth
+*.pt
+*.ckpt
+*.npz
+*.pkl
+*.h5
+*.safetensors
